@@ -4,11 +4,11 @@ Size vermiş olduğumuz form'un valid olup olmadığını kontrol etmeniz ve mes
 
 ## Örnek sayfa yapısı
 Valid değil ise
-![alt text](/form-not-valid.png)
+![alt text](form-not-valid.png)
 
 Valid ise
 
-![alt text](/form-valid.png)
+![alt text](form-valid.png)
 
 
 ## Kurallar
