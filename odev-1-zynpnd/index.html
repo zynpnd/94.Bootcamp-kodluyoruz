@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Odev Hafta 1 </title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .btn {
+                background-color: #E654EB;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 20px;
+                margin: 4px 2px;
+                border-radius: 15pc;
+                
+            }
+            .link{
+                text-align: center;
+                font-size: 20px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-weight: bolder;
+            }
+            a:hover {
+                color: #579E29;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1 id="nameSurname"></h1>
+            <h2 id="age"></h2>
+            <button id="btn" class="btn" onclick="btnFunction()">İsim ve Yaşımı Getir</button>
+            <div class="link">
+                <a href="https://www.linkedin.com/in/zeynepnidasarican/" id="linkedinUrl" target="_blank">Linkedin Profili</a>
+                <br/>
+                <a href="https://github.com/zynpnd" id="githubUrl" target="_blank">Github Profili</a>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
